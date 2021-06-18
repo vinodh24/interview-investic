@@ -1,0 +1,6 @@
+# Application Config
+spring:
+  application:
+    name: interview-task
+server:  port: 6787
+
