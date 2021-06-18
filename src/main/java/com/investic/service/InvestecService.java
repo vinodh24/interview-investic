@@ -7,6 +7,10 @@ import org.springframework.stereotype.Service;
 import com.investic.config.InvestecIntilizer;
 import com.investic.model.InvesticDto;
 
+/**
+* @author  Vinodh Sangavaram
+*/
+
 @Service
 public class InvestecService {
 

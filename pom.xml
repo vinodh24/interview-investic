@@ -61,26 +61,7 @@
 					<target>${maven.compiler.source}</target>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>com.spotify</groupId>
-				<artifactId>docker-maven-plugin</artifactId>
-				<configuration>
-					<imageName>device-service-profile</imageName>
-					<baseImage>adoptopenjdk/openjdk11</baseImage>
-					<entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
-					<!-- copy the service's jar file from target into the root directory 
-						of the image -->
-					<resources>
-						<resource>
-							<targetPath>/</targetPath>
-							<directory>${project.build.directory}</directory>
-							<include>${project.build.finalName}.jar</include>
-						</resource>
-					</resources>
-				</configuration>
-			</plugin>
 		</plugins>
-		<finalName>device-service-profile</finalName>
 	</build>
 	<repositories>
 		<repository>

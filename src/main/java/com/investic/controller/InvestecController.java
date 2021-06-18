@@ -18,6 +18,11 @@ import com.investic.model.InvesticDto;
 import com.investic.rest.util.RestServicesUtil;
 import com.investic.service.InvestecService;
 
+
+/**
+* @author  Vinodh Sangavaram
+*/
+
 @RestController
 @RequestMapping(path = "/investec")
 public class InvestecController {

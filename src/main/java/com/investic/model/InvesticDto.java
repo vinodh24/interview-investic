@@ -3,6 +3,10 @@ package com.investic.model;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
+/**
+* @author  Vinodh Sangavaram
+*/
+
 public class InvesticDto {
 	
 	@NotEmpty(message = "firstName is a required field")

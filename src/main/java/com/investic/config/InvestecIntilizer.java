@@ -1,6 +1,7 @@
 package com.investic.config;
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -9,6 +10,10 @@ import org.springframework.util.StringUtils;
 
 import com.investic.exceptions.AlreadyExistsException;
 import com.investic.model.InvesticDto;
+
+/**
+* @author  Vinodh Sangavaram
+*/
 
 public class InvestecIntilizer{
 

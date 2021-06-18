@@ -8,6 +8,11 @@ import org.springframework.context.annotation.ComponentScan;
 
 import com.investic.config.InvestecIntilizer;
 
+
+/**
+* @author  Vinodh Sangavaram
+*/
+
 @SpringBootApplication
 @ComponentScan(basePackages = "com.investic.*")
 public class InvesticApplication {
